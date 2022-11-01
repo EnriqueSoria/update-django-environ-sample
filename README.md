@@ -32,7 +32,7 @@ value = env("VARIABLE_WITHOUT_DEFAULT_VALUE")
 ```yaml
 repos:
   - repo: https://github.com/EnriqueSoria/update-django-environ-sample
-    rev: 'v0.1.8'
+    rev: 'vX.X.X'  # Pick a release version
     hooks:
       - id: update-django-environ-sample
         args: [ "-p", "myapp/" ]  # Path where your environment_defaults.py is located
