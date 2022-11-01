@@ -1,0 +1,1 @@
+# update-django-environ-sample
