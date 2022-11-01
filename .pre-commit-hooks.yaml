@@ -3,6 +3,5 @@
     description: Automatically update env.sample
     entry: update_django_environ_sample
     language: python
-    types: [python]
     always_run: true
     pass_filenames: false
