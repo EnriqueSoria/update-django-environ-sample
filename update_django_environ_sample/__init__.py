@@ -57,5 +57,9 @@ def generate_env_sample(*, environment_defaults_path: str, output: str, defaults
         f.write(text)
 
 
-if __name__ == "__main__":
+def main():
     generate_env_sample()
+
+
+if __name__ == "__main__":
+    main()
