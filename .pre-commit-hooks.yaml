@@ -1,7 +1,7 @@
 -   id: update-django-environ-sample
     name: Automatically update env.sample
     description: Automatically update env.sample
-    entry: generate_env_sample
+    entry: update_django_environ_sample
     language: python
     types: [python]
     always_run: true
