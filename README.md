@@ -3,7 +3,7 @@
 Keep your env.sample up to date when using [django-environ](https://github.com/joke2k/django-environ)
 
 ## Usage
- - Put every env var with its configuration in a separate python file named `environment_defaults.py`
+ - Put every env var with its configuration in a `ENV_DEFAULTS` variable, in a separate python file named `environment_defaults.py` (exactly this file name)
 ```python
 # environment_defaults.py
 ENV_DEFAULTS = dict(
@@ -12,7 +12,7 @@ ENV_DEFAULTS = dict(
 )
 ```
 
- - Instantiate `Env` with `ENV_DEFAULTS` on your `settings.py`
+ - Instantiate `Env` with `ENV_DEFAULTS` on your Django settings file
 ```python
 # settings.py
 from environ import Env
